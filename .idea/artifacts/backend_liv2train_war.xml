@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="backend-liv2train:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>backend-liv2train</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="backend-liv2train-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="backend-liv2train:war exploded" />
+    </root>
+  </artifact>
+</component>
